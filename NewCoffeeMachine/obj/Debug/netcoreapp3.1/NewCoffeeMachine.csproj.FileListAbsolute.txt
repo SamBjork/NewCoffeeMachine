@@ -1,0 +1,11 @@
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\bin\Debug\netcoreapp3.1\NewCoffeeMachine.exe
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\bin\Debug\netcoreapp3.1\NewCoffeeMachine.deps.json
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\bin\Debug\netcoreapp3.1\NewCoffeeMachine.runtimeconfig.json
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\bin\Debug\netcoreapp3.1\NewCoffeeMachine.runtimeconfig.dev.json
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\bin\Debug\netcoreapp3.1\NewCoffeeMachine.dll
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\bin\Debug\netcoreapp3.1\NewCoffeeMachine.pdb
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\obj\Debug\netcoreapp3.1\NewCoffeeMachine.csprojAssemblyReference.cache
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\obj\Debug\netcoreapp3.1\NewCoffeeMachine.AssemblyInfoInputs.cache
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\obj\Debug\netcoreapp3.1\NewCoffeeMachine.AssemblyInfo.cs
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\obj\Debug\netcoreapp3.1\NewCoffeeMachine.dll
+C:\Users\zigge\source\repos\NewCoffeeMachine\NewCoffeeMachine\obj\Debug\netcoreapp3.1\NewCoffeeMachine.pdb
