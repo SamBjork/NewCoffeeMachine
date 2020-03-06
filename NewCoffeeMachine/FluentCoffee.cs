@@ -1,61 +1,65 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace NewCoffeeMachine
 {
     class FluentCoffee : IFluentCoffee
     {
-        public Water _water { get; set; }
-        public Bean _bean { get; set; }
 
-        public bool _milk; 
-        public Beverage _beverage { get; set; }
+        private CupJava cupjava { get; set; }
+        private int temperature { get; set; }
 
-
-        public IFluentCoffee AddBeans(Bean bean)
+        public FluentCoffee ()
         {
-            _bean = bean;
+            cupjava = new CupJava();
+            temperature = 86;
+        }
+
+        public IFluentCoffee AddBeans(BeanSort beanSort, int amountIg)
+        {
+            cupjava.Ingredients.Add("Beansort: " + beanSort.ToString() + " Amount in grams: " + amountIg);
             return this;
         }
 
-        public IFluentCoffee AddMilk()
+        public IFluentCoffee AddMilk(int amountIml)
         {
-            _milk = true;
+            cupjava.Ingredients.Add("Milk in milliliter: " + amountIml);
             return this;
         }
 
-        public IFluentCoffee AddWater(Water water)
+        public IFluentCoffee AddWater(int amountIml)
         {
-            _water = water;
+            cupjava.Ingredients.Add("Water in milliliter: " + amountIml);
+            
             return this;
         }
 
-        public IBeverage ToBeverage(Beverage beverage)
+        public IFluentCoffee Heating(Func<int,bool> heatingWater)
         {
-            if (_milk == true)
-                _beverage.Name = "Latte";
+            while (heatingWater.Invoke(temperature) == false)
+            {
+                Thread.Sleep(500);
+                temperature++;
+                Console.WriteLine("Heating water.. Current temperature: " + temperature + "°C");
 
-            else
-                _beverage.Name = "Espresso";
+            }
+            Console.WriteLine("Heating done");
+            Console.WriteLine("Press any key to continue..");
+            Console.ReadKey();
+            Console.Clear();
 
-            Console.WriteLine("Välkommen till kaffemaskinen");
-            Console.WriteLine("");
-            Console.WriteLine("Du har gjort en: " + _beverage.Name);
-            Console.ReadLine();
+                cupjava.Ingredients.Add("Water temperature: " + temperature);
+                
 
-            //throw new NotImplementedException();
-            return _beverage;
+            return this;
         }
-    }
 
-    interface IFluentCoffee
-    {
-        IFluentCoffee AddWater(Water water);
+        public CupJava ToBeverage()
+        {
 
-        IFluentCoffee AddBeans(Bean bean);
-
-        IBeverage ToBeverage(Beverage beverage);
-
+            return cupjava;
+        }
     }
 }

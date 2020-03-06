@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace NewCoffeeMachine
+{
+    public class CupJava
+    {
+        public List<string> Ingredients { get; }
+        public string CupType { get; }
+
+        public CupJava()
+        {
+            Ingredients = new List<string>();
+        }
+
+        internal void Print()
+        {
+            foreach (var item in Ingredients)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+}
