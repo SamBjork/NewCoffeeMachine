@@ -7,7 +7,7 @@ namespace NewCoffeeMachine
     public class CupJava
     {
         public List<string> Ingredients { get; }
-        public string CupType { get; }
+        public string CupType { get; set; }
 
         public CupJava()
         {
@@ -16,6 +16,8 @@ namespace NewCoffeeMachine
 
         internal void Print()
         {
+            Console.WriteLine("Cupsize: " + CupType.ToString());
+
             foreach (var item in Ingredients)
             {
                 Console.WriteLine(item);

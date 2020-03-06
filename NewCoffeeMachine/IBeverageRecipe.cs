@@ -6,6 +6,6 @@ namespace NewCoffeeMachine
 {
     public interface IBeverageRecipe
     {
-        CupJava MakeBeverage();
+        CupJava MakeBeverage(CupSize cupSize);
     }
 }

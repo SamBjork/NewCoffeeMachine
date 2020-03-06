@@ -17,21 +17,27 @@ namespace NewCoffeeMachine
             temperature = 86;
         }
 
+        public IFluentCoffee ChooseCupSize(CupSize cupSize)
+        {
+            cupjava.CupType = cupSize.ToString();
+            return this;
+        }
+
         public IFluentCoffee AddBeans(BeanSort beanSort, int amountIg)
         {
             cupjava.Ingredients.Add("Beansort: " + beanSort.ToString() + " Amount in grams: " + amountIg);
             return this;
         }
 
-        public IFluentCoffee AddMilk(int amountIml)
+        public IFluentCoffee AddMilk(int amountIcl)
         {
-            cupjava.Ingredients.Add("Milk in milliliter: " + amountIml);
+            cupjava.Ingredients.Add("Milk in milliliter: " + amountIcl);
             return this;
         }
 
-        public IFluentCoffee AddWater(int amountIml)
+        public IFluentCoffee AddWater(int amountIcl)
         {
-            cupjava.Ingredients.Add("Water in milliliter: " + amountIml);
+            cupjava.Ingredients.Add("Water in milliliter: " + amountIcl);
             
             return this;
         }
@@ -51,14 +57,12 @@ namespace NewCoffeeMachine
             Console.Clear();
 
                 cupjava.Ingredients.Add("Water temperature: " + temperature);
-                
 
             return this;
         }
 
         public CupJava ToBeverage()
         {
-
             return cupjava;
         }
     }

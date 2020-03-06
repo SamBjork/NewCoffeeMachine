@@ -32,7 +32,25 @@ namespace NewCoffeeMachine
                 throw new Exception("Fel val");
             }
 
-            beverageRecipe.MakeBeverage().Print();
+            Console.WriteLine("Vänligen välj storlek på koppen");
+            Console.WriteLine("(1): Small (2): Meduim (3): Large");
+
+            var nextKey = Console.ReadKey();
+            Console.Clear();
+
+            if (nextKey.KeyChar == '1')
+            {
+                beverageRecipe.MakeBeverage(CupSize.Small).Print();
+            }
+            else if (nextKey.KeyChar == '2')
+            {
+                beverageRecipe.MakeBeverage(CupSize.Medium).Print();
+            }
+            else if (nextKey.KeyChar == '3')
+            {
+                beverageRecipe.MakeBeverage(CupSize.Large).Print();
+            }
+
 
 
         }
