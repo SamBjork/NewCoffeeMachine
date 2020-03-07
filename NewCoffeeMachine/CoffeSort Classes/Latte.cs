@@ -15,6 +15,7 @@ namespace NewCoffeeMachine
                 .AddMilk(20)
                 .Heating(waterTemp => waterTemp >= 95)
                 .ToBeverage();
+
             Console.WriteLine("Your Latte is ready!");
             Console.WriteLine();
             Console.WriteLine("You chose a " + cupSize.ToString() + " cup");

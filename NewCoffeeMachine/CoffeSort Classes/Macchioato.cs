@@ -16,6 +16,7 @@ namespace NewCoffeeMachine
                 .AddMilk(20)
                 .AddMilkFoam(5)
                 .ToBeverage();
+
             Console.WriteLine("Your Macchiato is ready!");
             Console.WriteLine();
             Console.WriteLine("You chose a " + cupSize.ToString() + " cup");

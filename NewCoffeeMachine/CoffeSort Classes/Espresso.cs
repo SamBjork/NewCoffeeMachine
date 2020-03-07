@@ -14,6 +14,7 @@ namespace NewCoffeeMachine
                 .AddWater(20)
                 .Heating(waterTemp => waterTemp >= 95)
                 .ToBeverage();
+
             Console.WriteLine("Your Espresso is ready!");
             Console.WriteLine();
             Console.WriteLine("You chose a " + cupSize.ToString() + " cup");

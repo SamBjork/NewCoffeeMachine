@@ -16,6 +16,7 @@ namespace NewCoffeeMachine
                 .AddChocolateSyrup(5)
                 .AddMilk(20)
                 .ToBeverage();
+
             Console.WriteLine("Your Mocha is ready!");
             Console.WriteLine();
             Console.WriteLine("You chose a " + cupSize.ToString() + " cup");
