@@ -19,7 +19,7 @@ namespace NewCoffeeMachine
 
             Console.WriteLine("Your Cappuccino is ready!");
             Console.WriteLine();
-            Console.WriteLine("You chose a " + cupSize.ToString() + " cup")
+            Console.WriteLine("You chose a " + cupSize.ToString() + " cup");
             Console.WriteLine("It was made with these ingredients: ");
 
             return cappuccino;

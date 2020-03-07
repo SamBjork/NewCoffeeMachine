@@ -29,9 +29,9 @@ namespace BeverageTest
             BeverageRecipeFactory beverageRecipeFactory = new BeverageRecipeFactory();
             IBeverageRecipe recipe = beverageRecipeFactory.getRecipe(CoffeeSort.Espresso);
 
-            CupJava cupjava = recipe.MakeBeverage(CupSize.Small);
+            CupJava cupjava = recipe.MakeBeverage(CupSize.small);
 
-            Assert.Equal("Beansort: Arabica Amount in grams: 5", cupjava.Ingredients[0]);
+            Assert.Equal("Beansort: Arabica 5 grams", cupjava.Ingredients[0]);
         }
 
         [Fact]
