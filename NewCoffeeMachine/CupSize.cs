@@ -6,8 +6,8 @@ namespace NewCoffeeMachine
 {
     public enum CupSize
     {
-        Small,
-        Medium,
-        Large
+        small,
+        medium,
+        large
     }
 }

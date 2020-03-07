@@ -16,7 +16,7 @@ namespace NewCoffeeMachine
 
         internal void Print()
         {
-            Console.WriteLine("Cupsize: " + CupType.ToString());
+            //Console.WriteLine("Cupsize: " + CupType.ToString());
 
             foreach (var item in Ingredients)
             {

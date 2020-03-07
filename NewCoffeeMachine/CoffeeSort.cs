@@ -10,7 +10,7 @@ namespace NewCoffeeMachine
         Latte,
         Americano,
         Macchiato,
-        Mocca,
+        Mocha,
         Cappucino
     }
 }

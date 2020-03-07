@@ -8,9 +8,11 @@ namespace NewCoffeeMachine
     {
         IFluentCoffee ChooseCupSize(CupSize cupSize);
         IFluentCoffee AddBeans(BeanSort beanSort, int amountIg);
-        IFluentCoffee AddMilk(int amountIcl);
         IFluentCoffee AddWater(int amountIcl);
         IFluentCoffee Heating(Func<int, bool> heatingWater);
+        IFluentCoffee AddMilk(int amountIcl);
+        IFluentCoffee AddMilkFoam(int amountImsk);
+        IFluentCoffee AddChocolateSyrup(int amountIcl);
 
         CupJava ToBeverage();
     }

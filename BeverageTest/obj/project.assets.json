@@ -3627,6 +3627,7 @@
       "path": "system.globalization.extensions/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6530,25 +6531,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zigge\\.nuget\\packages\\": {},
+    "C:\\Users\\Sam\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
+      "projectUniqueName": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
       "projectName": "BeverageTest",
-      "projectPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
-      "packagesPath": "C:\\Users\\zigge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\obj\\",
+      "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
+      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\zigge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6562,8 +6563,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
-              "projectPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj"
+            "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
+              "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj"
             }
           }
         }
@@ -6609,7 +6610,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

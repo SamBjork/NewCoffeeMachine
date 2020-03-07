@@ -14,7 +14,7 @@ namespace NewCoffeeMachine
         public FluentCoffee ()
         {
             cupjava = new CupJava();
-            temperature = 86;
+            temperature = 89;
         }
 
         public IFluentCoffee ChooseCupSize(CupSize cupSize)
@@ -25,15 +25,10 @@ namespace NewCoffeeMachine
 
         public IFluentCoffee AddBeans(BeanSort beanSort, int amountIg)
         {
-            cupjava.Ingredients.Add("Beansort: " + beanSort.ToString() + " Amount in grams: " + amountIg);
+            cupjava.Ingredients.Add("Beansort: " + beanSort.ToString() + " " + amountIg + " grams");
             return this;
         }
 
-        public IFluentCoffee AddMilk(int amountIcl)
-        {
-            cupjava.Ingredients.Add("Milk in milliliter: " + amountIcl);
-            return this;
-        }
 
         public IFluentCoffee AddWater(int amountIcl)
         {
@@ -52,11 +47,28 @@ namespace NewCoffeeMachine
 
             }
             Console.WriteLine("Heating done");
-            Console.WriteLine("Press any key to continue..");
-            Console.ReadKey();
+            Thread.Sleep(2000);
             Console.Clear();
 
-                cupjava.Ingredients.Add("Water temperature: " + temperature);
+                cupjava.Ingredients.Add("Temperature: " + temperature + "°C");
+
+            return this;
+        }
+        public IFluentCoffee AddMilk(int amountIcl)
+        {
+            cupjava.Ingredients.Add("Milk in milliliter: " + amountIcl);
+            return this;
+        }
+
+        public IFluentCoffee AddMilkFoam(int amountImsk)
+        {
+            cupjava.Ingredients.Add("Added: " + amountImsk +"msk of Milk Foam");
+
+            return this;
+        }
+        public IFluentCoffee AddChocolateSyrup(int amountIcl)
+        {
+            cupjava.Ingredients.Add("Added: " + amountIcl + "cl of Chocolate Syrup");
 
             return this;
         }

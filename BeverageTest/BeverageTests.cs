@@ -29,7 +29,7 @@ namespace BeverageTest
             BeverageRecipeFactory beverageRecipeFactory = new BeverageRecipeFactory();
             IBeverageRecipe recipe = beverageRecipeFactory.getRecipe(CoffeeSort.Espresso);
 
-            var cupjava = recipe.MakeBeverage();
+            CupJava cupjava = recipe.MakeBeverage(CupSize.Small);
 
             Assert.Equal("Beansort: Arabica Amount in grams: 5", cupjava.Ingredients[0]);
         }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj": {}
+    "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj": {
+    "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
+        "projectUniqueName": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
         "projectName": "BeverageTest",
-        "projectPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
-        "packagesPath": "C:\\Users\\zigge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\BeverageTest\\obj\\",
+        "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zigge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
-                "projectPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj"
+              "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
+                "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj"
               }
             }
           }
@@ -79,25 +79,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
+    "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
+        "projectUniqueName": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
         "projectName": "NewCoffeeMachine",
-        "projectPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
-        "packagesPath": "C:\\Users\\zigge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zigge\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\obj\\",
+        "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zigge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
