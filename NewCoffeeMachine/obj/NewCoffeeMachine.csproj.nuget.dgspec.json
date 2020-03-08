@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {}
+    "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
+    "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
+        "projectUniqueName": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
         "projectName": "NewCoffeeMachine",
-        "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
+        "projectPath": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj",
         "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\obj\\",
+        "outputPath": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

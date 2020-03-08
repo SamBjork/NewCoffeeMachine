@@ -6538,11 +6538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
+      "projectUniqueName": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
       "projectName": "BeverageTest",
-      "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
+      "projectPath": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\BeverageTest\\BeverageTest.csproj",
       "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\BeverageTest\\obj\\",
+      "outputPath": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\BeverageTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6563,8 +6563,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
-              "projectPath": "C:\\Users\\Sam\\Source\\Repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj"
+            "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj": {
+              "projectPath": "C:\\Users\\Sam\\source\\repos\\NewCoffeeMachine\\NewCoffeeMachine\\NewCoffeeMachine.csproj"
             }
           }
         }

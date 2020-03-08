@@ -25,7 +25,7 @@ namespace NewCoffeeMachine
 
         public IFluentCoffee AddBeans(BeanSort beanSort, int amountIg)
         {
-            cupjava.Ingredients.Add("Beansort: " + beanSort.ToString() + " " + amountIg + " grams");
+            cupjava.Ingredients.Add("Beansort: " + beanSort.ToString() + ", " + amountIg + " grams");
             return this;
         }
 
@@ -62,7 +62,7 @@ namespace NewCoffeeMachine
 
         public IFluentCoffee AddMilkFoam(int amountImsk)
         {
-            cupjava.Ingredients.Add("Added: " + amountImsk +"msk of Milk Foam");
+            cupjava.Ingredients.Add("Topped with " + amountImsk +" msk of Milk Foam");
 
             return this;
         }
